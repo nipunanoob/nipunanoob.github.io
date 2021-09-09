@@ -14,7 +14,7 @@ nav > ul {
   overflow: hidden;
 }
 .footer {
-  margin-top: 150px;
+  margin-top: 300px;
 }
 section {
   background-color: #f4f7fa;
@@ -22,12 +22,22 @@ section {
 li section {
   margin-bottom: 10px;
 }
+.number {
+  list-style-type: number;
+  list-style-position: inside;
+}
+ul li::before {
+  color: #8ee5d1;
+}
 h1 {
   color: #000000;
 }
 p,
 a {
   color: #3c3c3c;
+}
+input[type="text"] {
+  margin-bottom: 10px;
 }
 li {
   float: left;
@@ -41,10 +51,16 @@ body {
 .url {
   font-weight: bold;
 }
+input[type="submit"] {
+  background-color: #8ee5d1;
+  border-radius: 15%;
+  padding: 10px;
+}
 button {
+  padding: 15px;
   background-color: #8ee5d1;
   color: #3c3c3c;
-  border-radius: 25%;
+  border-radius: 20%;
 }
 
 img {
