@@ -1,15 +1,22 @@
 nav {
-  position: fixed;
-  z-index: 1;
-  width: 100%;
+  max-width: 100%;
 }
-.bar {
-  height: 8.02%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+#title {
+  font-weight: bold;
+  font-size: 2em;
 }
+nav > ul {
+  list-style-type: none;
 
-.bar li {
-  display: inline-block;
+  overflow: hidden;
+}
+li {
+  float: left;
+  margin-right: 5%;
+}
+body {
+  margin: auto;
+  width: 50%;
+
+  padding: 10px;
 }
